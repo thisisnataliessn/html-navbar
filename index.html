@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="nav--desktop"> <!--I don't know what the == $0 means here--> == $0
+      <div class="mobile wrapper">
+        <div class="header-cart__wrapper hidden-lg"> <!-- not sure what is hidden here -->
+          <a href="/cart" class="CartToggle header-cart">
+            <i class="icon icon-ra_bag"></i> <!-- I don't know what the i tag is, but I'm guessing it's for an icon -->
+          </a>
+          <span class="header-cart__bubble cartCount has-items cartCount-updater  hidden-count">0</span>
+        </div>
+        <div class="logo-wrapper ">
+          <h1 class="h4 header-logo" itemscope itemtype="http://schema.org/Organization"> <!-- I thought this URL would
+            take me to the Rebecca Atwood logo, but it didn't. It's also weird to me the class is h4, but the tag is h1 -->
+            <a href="/" itemprop="url"> <!-- I couldn't replicate the shape after href --> == $0
+              <i class="icon icon-ra_primary-logo">
+                ::before <!-- no idea what this is either -->
+              </i>
+            </a>
+          </h1>
+        </div>
+        <a href class="menuToggle header-hamburger"></a> <!-- Don't know what this refers to, either. I don't see
+          a hamburger menu. -->
+      </div>
+      <div class="header-menu nav-wrapper">
+        <ul class="main-menu accessibleNav"> <!-- This is the list of clickable links in the nav bar -->
+          <li class="grandparent  kids-4">
+            <a href="#" class="nav-link" id="Shop">Shop</a>
+            <a href="#" class="nav-carat">
+              <span class="plus">+</span>
+              <span class="minus">-</span>
+            </a>
+            <div class="main-menu-dropdown">
+              <ul class="main-menu-dropdown--list"> <!-- The number of items below this list item is huge
+              because there are so many categories users can access from the Shop dropdown menu. -->
+                <li aria-haspopup="true">
+                  <ul class="collection-nav--child">
+                    <!-- There is another list of items here -->
+                  </ul>
+                </li>
+                <!--There are more list items here. -->
+              </ul>
+            </div>
+          </li>
+          <!-- There are more list items with class="child  kids-0" here. -->
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
